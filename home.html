@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Paper Recommendation System</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <meta charset="utf-8">
+      </head>
+      <body>
+    
+        <div id="todo-table">
+            
+            <div class="row">
+              <div class="col-lg-4 col-lg-offset-4">
+                <div class="input-group">
+                  <img src="C:/Users/Hari/Desktop/flask_proj/templates/header.jpg" class="img-fluid img-responsive" alt="Responsive image">
+                </div> <!-- div for input-group for title -->
+              <br>
+            </div> <!-- div for col-lg-8 for title -->
+          </div> <!-- div for row for title -->
+    
+    
+            <div class="row">
+              <div class="col-lg-4 col-lg-offset-4">
+                <div class="input-group">
+                <p class="h2">
+                Paper Recommendation System
+              </p>
+              </div> <!-- div for input-group for title -->
+              <br>
+            </div> <!-- div for col-lg-8 for title -->
+          </div> <!-- div for row for title -->
+    
+              <div class="row">
+                <div class="col-lg-4 col-lg-offset-4">
+                  <form action="{{ url_for('main')}}" method="post">
+    
+                    <div class="form-group">
+                        <input type="text" name="experience" class="form-control"
+                            placeholder="Research query or keywords" required="required" />
+                    </div>
+                  <span class="input-group-btn">
+                      <button type="submit" class='btn btn-success btn-lg btn-block'> Search </button>
+                  </span>
+                </div> <!-- div for input-group -->
+                <br>
+              </div> <!-- div for col-lg-8 -->
+            </div> <!-- div for row -->
+            
+    
+    
+    
+      </body>
+    
+     
+    
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+</html>
